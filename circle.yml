@@ -23,5 +23,5 @@ dependencies:
 
 test:
     override:
-        - ./gradlew assemble
+        - ./gradlew assemble -x lintVitalRelease
         - cp -r app/build/outputs $CIRCLE_ARTIFACTS
